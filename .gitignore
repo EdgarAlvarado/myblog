@@ -1,5 +1,7 @@
 node_modules
 assets/components
+assets/css
+assets/js/*.min.js
 application/logs
 application/cache/*
 !application/cache/.htaccess
