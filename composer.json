@@ -1,14 +1,15 @@
 {
-    "name": "Edgar/web",
-    "version": "0.0.0",
-    "authors": [{
-        "name": "Edgar",
-        "email": "edga.alva@gmail.com"
-    }],
-    "require": {
-        "php": ">=5.2.4"
-    },
-    "require-dev": {
-        "mikey179/vfsStream": "1.1.*"
-    }
+	"name": "Edgar/web",
+	"version": "0.0.0",
+	"authors": [{
+		"name": "Edgar",
+		"email": "edga.alva@gmail.com"
+	}],
+	"require": {
+		"php": ">=5.2.4"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"squizlabs/php_codesniffer": "2.*"
+	}
 }

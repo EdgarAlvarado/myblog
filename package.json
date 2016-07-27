@@ -1,19 +1,30 @@
 {
-    "name": "web",
-    "version": "0.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "private": true,
-    "author": "Edgar <edga.alva@gmail.com>",
-    "license": "EULA",
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-contrib-cssmin": "^0.10.0",
-        "grunt-contrib-less": "^0.11.3",
-        "grunt-contrib-uglify": "^0.5.0",
-        "grunt-contrib-watch": "^0.6.1"
-    }
+  "name": "blog",
+  "version": "0.0.0",
+  "description": "# Install Node (probably unnecessary if you're using Yeoman!) [Click here](http://howtonode.org/how-to-install-nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "Edgar <edga.alva@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-less": "^0.11.3",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "gulp": "^3.9.1",
+    "gulp-phpcs": "^1.1.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarAlvarado/myblog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EdgarAlvarado/myblog/issues"
+  },
+  "homepage": "https://github.com/EdgarAlvarado/myblog#readme"
 }

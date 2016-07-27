@@ -4,5 +4,7 @@ assets/css
 assets/js/*.min.js
 application/logs
 application/cache/*
+vendor/
 !application/cache/.htaccess
 !application/cache/index.html
+code_sniffer.txt

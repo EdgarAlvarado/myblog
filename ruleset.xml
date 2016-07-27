@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Custom Clickit Standard">
+	<description> </description>
+
+	<!--
+		If no files were provided this will be the defaults paths
+	-->
+	<file>./application/controllers</file>
+	<file>./application/core</file>
+	<file>./application/helpers</file>
+	<file>./application/hooks</file>
+	<file>./application/libraries</file>
+	<file>./application/models</file>
+	<file>./application/views</file>
+	<file>./assets/js</file>
+	<file>./assets/less</file>
+
+	<!--
+		Patterns to ignore
+	-->
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/logs/*</exclude-pattern>
+	<exclude-pattern>*/third_party/*</exclude-pattern>
+</ruleset>
