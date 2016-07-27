@@ -8,3 +8,4 @@ vendor/
 !application/cache/.htaccess
 !application/cache/index.html
 code_sniffer.txt
+composer.lock
